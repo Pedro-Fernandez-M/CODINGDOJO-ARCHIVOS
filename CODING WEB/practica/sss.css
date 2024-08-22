@@ -1,0 +1,22 @@
+div{
+
+    border: 2px solid blue  ;
+
+    padding-top: 25px;
+  
+    padding-right: 50px;
+  
+    padding-bottom: 75px;
+  
+    padding-left: 100px;
+  
+  }
+
+  button{
+    border: 5px solid red;
+    border-radius: 15%;
+    cursor: pointer;
+    background-color: bisque;
+    padding-left: 50%;
+
+  }

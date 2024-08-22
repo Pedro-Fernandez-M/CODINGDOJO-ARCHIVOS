@@ -1,0 +1,7 @@
+function obtenerEdad() {
+
+   var edad = 20;
+
+   return edad;
+
+}

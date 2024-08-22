@@ -1,0 +1,49 @@
+.container {
+    width: 700px;
+    height: 700px;
+    background-color: #9c3e3e;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+.frente {
+    width: 700px;
+    height: 100px;
+    background-color: #9c3e3e
+    margin: 10px auto;
+    
+}
+
+.ojoi{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin-left:80px;
+    display: inline-block;
+}
+
+.entreojo {
+        width: 300px;
+        height: 100px;
+        background-color: #9c3e3e;
+        display: inline-block;
+        margin: 0px;
+
+}
+
+.ojod{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin-right: 80px;
+    display: inline-block;
+}
+.entreojo2 {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    margin-left: 180px;
+
+}
