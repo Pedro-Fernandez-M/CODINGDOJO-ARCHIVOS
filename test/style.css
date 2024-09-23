@@ -1,0 +1,59 @@
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: #54595F;
+}
+.container{
+    width: 900px;
+    height: 600px;
+    background-color: aquamarine;
+    margin-left: 300px;
+    display: flex;
+}
+
+.caja1{
+    flex:3;
+    height: 600px;
+    background-color: white
+}
+.caja2{
+    flex:6;
+    height: 600px;
+    background-color: red;
+}
+
+.box1{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    border-radius: 20px;
+}
+
+.box2{
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    margin-top: 10px;
+    border-radius: 20%;
+}
+
+.box3{
+    width: 300px;
+    height: 150px;
+    background-color: rgb(72, 69, 115);
+    margin-top: 10px;
+    border-radius: 20%;
+}
+
+#boton1{
+    width: 100px;
+    background-color: blue;
+    color: white;
+
+    margin-left: 10px;
+    box-shadow: 5px 5px black;
+}
+
+
+
+

@@ -1,0 +1,126 @@
+.container{
+    width: 900px;
+    height: 700px;
+    background-color: white;
+    margin-left: 25%;
+}
+.menu{
+
+    width: 870px;
+    height: 80px;
+    background-color: grey;
+    display: flex;
+}
+
+.logo{
+    width: 200px;
+    height: 100%;
+    background-color: grey;
+}
+
+.buscando{
+    width: 500px;
+    height: 100%;
+    background-color: grey;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sesion{
+    width: 200px;
+    height: 100%;
+    background-color: grey;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo{
+    margin-left: 20px;
+}
+.CajaContenido{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    flex:1;
+    display: flex; 
+}
+
+.Caja1{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.Caja2{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex:2;
+}
+.col-2 {
+    flex:4;
+}
+
+.Texto1{
+    margin-left: 25px;
+    border : 1px solid black;
+    padding: 10px;
+
+}
+
+
+.Informacion1{
+    margin-top: 20px;
+    width: 100%;
+    height: 230px; 
+    background-color: white;
+}
+
+.Informacion2{
+    width: 100%;
+    height: 230px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.Informacion3{
+    width: 100%;
+    height: 200px;
+    background-color:  white;
+    margin-top: 20px;
+}
+
+label{
+    align-items: center
+}
+
+.Texto3{
+    margin-left: 25px;
+    border : 1px solid black;
+    padding: 10px;
+}
+
+
+#primerBoton{
+    background-color: rgb(226, 226, 107);
+}
+#segundoBoton{
+    background-color: rgb(226, 226, 107);
+}
+#tercerBoton{
+    background-color: rgb(104, 135, 104);
+}

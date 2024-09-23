@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Alumnos - Comidas</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="login-section" class="container">
+        <h2>Inicio de Sesión</h2>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Usuario" required>
+            <input type="password" id="password" placeholder="Contraseña" required>
+            <button type="submit">Ingresar</button>
+        </form>
+    </div>
+
+    <div id="main-section" class="container" style="display: none;">
+        <h2>Registro de Comidas</h2>
+
+        <div id="student-info">
+            <h3>Registrar Alumnos</h3>
+            <input type="text" id="studentName" placeholder="Nombre del alumno">
+            <button id="scanQR">Escanear QR</button>
+            <canvas id="qrCanvas" hidden></canvas>
+            <video id="qrVideo" hidden></video>
+        </div>
+
+        <div id="meal-section">
+            <h3>Registrar Comida</h3>
+            <select id="mealType">
+                <option value="desayuno">Desayuno</option>
+                <option value="almuerzo">Almuerzo</option>
+                <option value="cena">Cena</option>
+            </select>
+            <button id="registerMeal">Registrar Comida</button>
+        </div>
+
+        <div id="message"></div>
+        <button id="generateReport">Generar Reporte Diario</button>
+    </div>
+
+    <script src="js/qrcode.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

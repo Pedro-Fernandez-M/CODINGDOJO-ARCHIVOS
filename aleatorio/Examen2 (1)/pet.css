@@ -1,0 +1,111 @@
+.pet {
+    background-color: #169393;
+    color:white;
+    font-family: sans-serif;
+    height:175px;
+    
+}
+
+.shel {
+    font-family: sans-serif;
+    color: white;
+    font-size: 30px;
+    list-style: none;
+}
+
+.fi-ad {
+    list-style: none;
+    color: black;
+    margin-left: 80px;
+    font-weight: bold;
+}
+
+button {
+    color: blueviolet;
+    font-family:sans-serif;
+    font-size:17px;
+    height:30px; 
+    width:150px
+}
+
+.perfiles {
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.petpet {
+    display: flex;
+    align-items: baseline;
+}
+
+.shel>img {
+    height: 30px;
+}
+
+.gato {
+    background-color: darkgrey;
+}
+.pep {
+   height: 110px;
+}
+
+.bru {
+    height:110px;
+}
+
+.osc {
+    height: 110px;
+}
+
+.animal {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    background-color: darkgray;
+    padding: 30px;
+    margin: 30px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+
+}
+
+.animalesPet {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.botones {
+    background-color: #169393;
+    color:white;
+    font-family: sans-serif;
+    height: 2rem;
+    padding: 5px;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+    width: 200px;
+}
+
+.contenedorImagen {
+    flex: 1;
+}
+
+.petting {
+    display: flex;
+    flex-direction: row;
+}
