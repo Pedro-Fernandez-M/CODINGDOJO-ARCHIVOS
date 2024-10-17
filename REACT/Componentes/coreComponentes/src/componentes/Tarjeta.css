@@ -5,3 +5,9 @@
   text-align: center;
   font-family: arial;
 }
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  border-radius: 15%;
+}

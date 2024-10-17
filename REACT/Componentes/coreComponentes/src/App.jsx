@@ -1,9 +1,9 @@
-import React from "react";
-import Tarjeta from "./componentes/tarjeta";
+import React, { useState } from "react";
+import Tarjeta from "./componentes/Tarjeta";
 import "./App.css";
 
 const App = () => {
-  const productos = [
+  const [productos, setProductos] = useState([
     {
       nombre: "Laptop",
       precio: 1500,
@@ -14,7 +14,7 @@ const App = () => {
       nombre: "Smartphone",
       precio: 800,
       Texto: "Un smartphone de última generacion",
-      stock: 0,
+      stock: "Agotado",
     },
     {
       nombre: "Auriculares",
@@ -28,14 +28,37 @@ const App = () => {
       Texto: "Monitor 4K para una experiencia visual increible",
       stock: 7,
     },
-  ];
+  ]);
+
+  const actualizarStock = (producto, nuevoStock) => {
+    const productosActualizados = productos.map((p) => {
+      if (p.nombre === producto.nombre) {
+        return { ...p, stock: nuevoStock };
+      }
+      return p;
+    });
+    setProductos(productosActualizados);
+  };
 
   return (
-    <div className="App">
-      {productos.map((producto) => (
-        <Tarjeta key={producto.nombre} {...producto} />
-      ))}
-    </div>
+    <>
+      <h1> TechStore - Tu destino para la mejor Tecnología</h1>
+
+      <div className="contenedor">
+        {productos.map((producto, index) => (
+          <Tarjeta
+            key={index}
+            nombre={producto.nombre}
+            precio={producto.precio}
+            Texto={producto.Texto}
+            stock={producto.stock}
+            actualizarStock={(nuevoStock) =>
+              actualizarStock(producto, nuevoStock)
+            }
+          />
+        ))}
+      </div>
+    </>
   );
 };
 

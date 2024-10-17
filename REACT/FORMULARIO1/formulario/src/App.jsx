@@ -1,11 +1,11 @@
 import "./App.css";
-// App.js
-import formularioSuper from "../components/CoreSuper";
+
+import CoreSuper from "./components/CoreSuper";
 
 function App() {
   return (
     <>
-      <formularioSuper />
+      <CoreSuper />
     </>
   );
 }

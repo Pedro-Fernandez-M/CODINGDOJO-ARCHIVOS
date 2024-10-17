@@ -1,0 +1,65 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+.titulo2 {
+  font-size: 60px;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.Formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.Formulario input {
+  width: 300px;
+  height: 30px;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.Formulario button {
+  width: 300px;
+  height: 30px;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.Formulario button:hover {
+  background-color: #ccc;
+}
+
+.Listado {
+  font-size: 30px;
+  display: flex;
+}
+
+h2 {
+  font-size: 30px;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.Listado ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
